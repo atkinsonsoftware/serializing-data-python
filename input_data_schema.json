@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "description": "Collection of Disney works",
+    "properties": {
+	"movies": {
+	    "type": "array",
+	    "items": {
+		"type": "string"
+	    }
+	},
+	"live-action": {
+	    "type": "array",
+	    "items": {
+		"type": "string"
+	    }
+	}
+    }
+}
